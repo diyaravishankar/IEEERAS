@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 // Import css from @emotion/react
-import classNames from "classnames"; // Import classNames from classnames package
+// import classNames from "classnames"; // Import classNames from classnames package
 
 function MorphingText() {
   const [texts, setTexts] = useState(["Think.", "Create.", "Learn."]);
@@ -91,11 +91,11 @@ function MorphingText() {
     <div>
       <span
         ref={elts.text1}
-        className={classNames("text-3xl font-bold text-center")}
+        className="text-3xl font-bold text-center"
       ></span>
       <span
         ref={elts.text2}
-        className={classNames("text-3xl font-bold text-center")}
+        className="text-3xl font-bold text-center"
       ></span>
     </div>
   );
